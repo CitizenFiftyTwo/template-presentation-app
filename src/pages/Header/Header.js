@@ -3,7 +3,7 @@ import React from "react";
 class Header extends React.Component {
 
     scrollToPageOne() {
-        document.getElementById('pageOne').scrollIntoView();
+        document.getElementById('pageOne').scrollIntoView({behavior: "smooth"});
     }
 
     render() {
