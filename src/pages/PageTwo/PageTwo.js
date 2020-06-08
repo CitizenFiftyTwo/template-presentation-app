@@ -4,7 +4,7 @@ import "./PageTwo.css";
 class PageTwo extends React.Component {
   render() {
     return (
-      <div className="page-two">
+      <div id="pageTwo" className="page-two">
            This is PageTwo Component
       </div>
     );
